@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+padding: 0px;
+}
+.banner{
+    background-image: url(img/download\ \(2\).jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+section{
+    background-color: rgb(34, 33, 33);
+    color: white;
+    
+}
+.section1 {
+   
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+.name{
+    padding-top: 30%;
+}
+.section2, .section3, .section4{
+    margin-top: 2px;
+    text-transform: capitalize;
+    border-radius: 8px;
+   
+}
+.card{
+    background-color: black;
+    color: rgb(39, 36, 36);
+}
+.skill{
+    justify-content: center;
+}
+
+.card img:hover{
+    transform: scale(0.8);
+    overflow:hidden;
+
+  
+}
+
+.card {
+    
+    transition: background 0.3s ease; 
+  }
+  
+  
+  .card:hover{
+    background: linear-gradient(to right, #2ecc71, #3498db);
+  }
+  .copy{
+  background-color: rgb(34, 33, 33);
+    color: white;
+  }
